@@ -1,0 +1,38 @@
+{
+  "name": "browser-keyword-jumper",
+  "version": "1.1.0",
+  "description": "🐕 一个可爱的浏览器扩展，通过关键字快速跳转到常用网站",
+  "main": "src/background.js",
+  "scripts": {
+    "build": "./build.sh",
+    "clean": "./clean.sh",
+    "dev": "echo '开发模式：请直接加载 src/ 目录到浏览器'",
+    "release": "./build.sh && echo '发布包已生成，请查看 release/ 目录'"
+  },
+  "keywords": [
+    "browser-extension",
+    "chrome-extension",
+    "firefox-addon",
+    "keyword-jumper",
+    "quick-navigation",
+    "productivity"
+  ],
+  "author": "Browser Keyword Jumper Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/browser-keyword-jumper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/browser-keyword-jumper/issues"
+  },
+  "homepage": "https://github.com/your-username/browser-keyword-jumper#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "Chrome >= 88",
+    "Firefox >= 109",
+    "Edge >= 88"
+  ]
+}

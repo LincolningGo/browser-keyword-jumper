@@ -1,0 +1,312 @@
+{
+  "extensionName": {
+    "message": "Browser Keyword Jumper",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Quick navigation to frequently used URLs using custom keywords in the address bar",
+    "description": "Description of the extension"
+  },
+  "extensionTitle": {
+    "message": "Browser Keyword Jumper",
+    "description": "Title shown in browser action"
+  },
+  
+  "popupTitle": {
+    "message": "Keyword Jumper",
+    "description": "Main title in popup"
+  },
+  "importButton": {
+    "message": "Import",
+    "description": "Import button text"
+  },
+  "exportButton": {
+    "message": "Export",
+    "description": "Export button text"
+  },
+  "importTooltip": {
+    "message": "Import configuration",
+    "description": "Tooltip for import button"
+  },
+  "exportTooltip": {
+    "message": "Export configuration",
+    "description": "Tooltip for export button"
+  },
+  
+  "keywordLabel": {
+    "message": "Keyword",
+    "description": "Label for keyword input field"
+  },
+  "urlLabel": {
+    "message": "URL",
+    "description": "Label for URL input field"
+  },
+  "descriptionLabel": {
+    "message": "Description (Optional)",
+    "description": "Label for description input field"
+  },
+  "keywordPlaceholder": {
+    "message": "e.g.: admin, test, dev",
+    "description": "Placeholder text for keyword input"
+  },
+  "urlPlaceholder": {
+    "message": "https://example.com",
+    "description": "Placeholder text for URL input"
+  },
+  "descriptionPlaceholder": {
+    "message": "Brief description of this shortcut",
+    "description": "Placeholder text for description input"
+  },
+  "keywordPattern": {
+    "message": "Only letters, numbers, underscores and hyphens allowed",
+    "description": "Pattern validation message for keyword input"
+  },
+  
+  "addKeywordButton": {
+    "message": "Add Keyword",
+    "description": "Text for add keyword button"
+  },
+  "updateKeywordButton": {
+    "message": "Update Keyword",
+    "description": "Text for update keyword button"
+  },
+  "cancelButton": {
+    "message": "Cancel",
+    "description": "Text for cancel button"
+  },
+  
+  "myKeywordsTitle": {
+    "message": "My Keywords",
+    "description": "Title for keywords list section"
+  },
+  "emptyStateTitle": {
+    "message": "No Keywords Yet",
+    "description": "Title shown when no keywords exist"
+  },
+  "emptyStateMessage": {
+    "message": "Add your first keyword above to get started!",
+    "description": "Message shown when no keywords exist"
+  },
+  "editTooltip": {
+    "message": "Edit",
+    "description": "Tooltip for edit button"
+  },
+  "deleteTooltip": {
+    "message": "Delete",
+    "description": "Tooltip for delete button"
+  },
+  
+  "confirmTitle": {
+    "message": "Confirm Action",
+    "description": "Title for confirmation modal"
+  },
+  "confirmButton": {
+    "message": "Confirm",
+    "description": "Text for confirm button"
+  },
+  "deleteConfirmTitle": {
+    "message": "Confirm Delete",
+    "description": "Title for delete confirmation"
+  },
+  "deleteConfirmMessage": {
+    "message": "Are you sure you want to delete the keyword \"$KEYWORD$\"? This action cannot be undone.",
+    "description": "Message for delete confirmation",
+    "placeholders": {
+      "keyword": {
+        "content": "$1",
+        "example": "admin"
+      }
+    }
+  },
+  "importConfirmTitle": {
+    "message": "Confirm Import",
+    "description": "Title for import confirmation"
+  },
+  "importConfirmMessage": {
+    "message": "About to import $COUNT$ keyword configurations. This will overwrite all current configurations. Are you sure you want to continue?",
+    "description": "Message for import confirmation",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  
+  "keywordAddedSuccess": {
+    "message": "Keyword added successfully",
+    "description": "Success message for adding keyword"
+  },
+  "keywordUpdatedSuccess": {
+    "message": "Keyword updated successfully",
+    "description": "Success message for updating keyword"
+  },
+  "keywordDeletedSuccess": {
+    "message": "Keyword deleted successfully",
+    "description": "Success message for deleting keyword"
+  },
+  "configExportedSuccess": {
+    "message": "Configuration exported successfully",
+    "description": "Success message for exporting config"
+  },
+  "configImportedSuccess": {
+    "message": "Configuration imported successfully",
+    "description": "Success message for importing config"
+  },
+  
+  "errorKeywordEmpty": {
+    "message": "Keyword cannot be empty",
+    "description": "Error message for empty keyword"
+  },
+  "errorKeywordTooLong": {
+    "message": "Keyword cannot exceed 50 characters",
+    "description": "Error message for keyword too long"
+  },
+  "errorKeywordInvalidChars": {
+    "message": "Keyword can only contain letters, numbers, underscores and hyphens",
+    "description": "Error message for invalid keyword characters"
+  },
+  "errorKeywordExists": {
+    "message": "This keyword already exists",
+    "description": "Error message for duplicate keyword"
+  },
+  "errorUrlEmpty": {
+    "message": "URL cannot be empty",
+    "description": "Error message for empty URL"
+  },
+  "errorUrlInvalid": {
+    "message": "Invalid URL format",
+    "description": "Error message for invalid URL"
+  },
+  
+  "errorInitializationFailed": {
+    "message": "Initialization failed, please refresh the page and try again",
+    "description": "Error message for initialization failure"
+  },
+  "errorLoadKeywordsFailed": {
+    "message": "Failed to load keywords list",
+    "description": "Error message for loading keywords failure"
+  },
+  "errorSaveFailed": {
+    "message": "Save failed, please try again",
+    "description": "Error message for save failure"
+  },
+  "errorDeleteFailed": {
+    "message": "Delete failed, please try again",
+    "description": "Error message for delete failure"
+  },
+  "errorExportFailed": {
+    "message": "Export failed, please try again",
+    "description": "Error message for export failure"
+  },
+  "errorImportFailed": {
+    "message": "Import failed, please try again",
+    "description": "Error message for import failure"
+  },
+  "errorFileFormatInvalid": {
+    "message": "File format error or file corrupted",
+    "description": "Error message for invalid file format"
+  },
+  "errorSelectJsonFile": {
+    "message": "Please select a JSON format configuration file",
+    "description": "Error message for non-JSON file selection"
+  },
+  "errorNoExportData": {
+    "message": "Export failed, no configuration to export",
+    "description": "Error message when no data to export"
+  },
+  "errorKeywordNotFound": {
+    "message": "Keyword to edit not found",
+    "description": "Error message when keyword to edit is not found"
+  },
+  "errorKeywordToDeleteNotFound": {
+    "message": "Keyword to delete not found",
+    "description": "Error message when keyword to delete is not found"
+  },
+  "errorOperationFailed": {
+    "message": "Operation failed, please check input and try again",
+    "description": "Generic error message for operation failure"
+  },
+  
+  "errorStateTitle": {
+    "message": "Initialization Failed",
+    "description": "Title for error state"
+  },
+  "errorStateMessage": {
+    "message": "An error occurred during plugin initialization, please refresh the page and try again.",
+    "description": "Message for error state"
+  },
+  "refreshPageButton": {
+    "message": "Refresh Page",
+    "description": "Text for refresh page button"
+  },
+  
+  "importOptionsTitle": {
+    "message": "Import Options",
+    "description": "Title for import options modal"
+  },
+  "importFileInfo": {
+    "message": "Import File Information",
+    "description": "Label for import file information section"
+  },
+  "importKeywordCount": {
+    "message": "Keywords to import",
+    "description": "Label for import keyword count"
+  },
+  "currentKeywordCount": {
+    "message": "Current keywords",
+    "description": "Label for current keyword count"
+  },
+  "importModeTitle": {
+    "message": "Import Mode",
+    "description": "Title for import mode selection"
+  },
+  "replaceMode": {
+    "message": "Replace Mode",
+    "description": "Replace mode option"
+  },
+  "replaceModeDesc": {
+    "message": "Replace all current keywords with imported ones",
+    "description": "Description for replace mode"
+  },
+  "mergeMode": {
+    "message": "Merge Mode",
+    "description": "Merge mode option"
+  },
+  "mergeModeDesc": {
+    "message": "Add imported keywords to existing ones",
+    "description": "Description for merge mode"
+  },
+  "skipDuplicates": {
+    "message": "Skip duplicate keywords",
+    "description": "Option to skip duplicate keywords"
+  },
+  "startImport": {
+    "message": "Start Import",
+    "description": "Button text to start import"
+  },
+  "keywordsCount": {
+    "message": "keywords",
+    "description": "Text for keywords count"
+  },
+  "addedCount": {
+    "message": "Added",
+    "description": "Count of added keywords"
+  },
+  "updatedCount": {
+    "message": "Updated",
+    "description": "Count of updated keywords"
+  },
+  "skippedCount": {
+    "message": "Skipped",
+    "description": "Count of skipped keywords"
+  },
+  "importWarning": {
+    "message": "Import completed with warnings",
+    "description": "Warning message for import with errors"
+  },
+  "errorsFound": {
+    "message": "errors found",
+    "description": "Text for errors found count"
+  }
+}

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="dogGradient" cx="0.5" cy="0.3" r="0.8">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#FFA500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8C00;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="helmetGradient" cx="0.3" cy="0.2" r="0.8">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4682B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2F4F4F;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="noseGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆形 -->
+  <circle cx="64" cy="64" r="60" fill="#E6F3FF" stroke="#4682B4" stroke-width="2"/>
+  
+  <!-- 狗狗头部 -->
+  <ellipse cx="64" cy="75" rx="35" ry="30" fill="url(#dogGradient)"/>
+  
+  <!-- 狗狗耳朵 -->
+  <ellipse cx="45" cy="60" rx="12" ry="20" fill="url(#dogGradient)" transform="rotate(-20 45 60)"/>
+  <ellipse cx="83" cy="60" rx="12" ry="20" fill="url(#dogGradient)" transform="rotate(20 83 60)"/>
+  
+  <!-- 头盔 -->
+  <path d="M 35 55 Q 64 25 93 55 Q 93 45 64 35 Q 35 45 35 55" fill="url(#helmetGradient)" stroke="#2F4F4F" stroke-width="1"/>
+  
+  <!-- 头盔装饰孔 -->
+  <circle cx="50" cy="45" r="3" fill="#2F4F4F" opacity="0.7"/>
+  <circle cx="64" cy="40" r="3" fill="#2F4F4F" opacity="0.7"/>
+  <circle cx="78" cy="45" r="3" fill="#2F4F4F" opacity="0.7"/>
+  
+  <!-- 狗狗眼睛 -->
+  <ellipse cx="55" cy="70" rx="4" ry="6" fill="#000"/>
+  <ellipse cx="73" cy="70" rx="4" ry="6" fill="#000"/>
+  <ellipse cx="55" cy="68" rx="1.5" ry="2" fill="#FFF"/>
+  <ellipse cx="73" cy="68" rx="1.5" ry="2" fill="#FFF"/>
+  
+  <!-- 狗狗鼻子 -->
+  <ellipse cx="64" cy="80" rx="4" ry="3" fill="url(#noseGradient)"/>
+  
+  <!-- 狗狗嘴巴 -->
+  <path d="M 64 83 Q 58 88 52 85" stroke="#654321" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 64 83 Q 70 88 76 85" stroke="#654321" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- 胡须 -->
+  <line x1="40" y1="75" x2="48" y2="77" stroke="#654321" stroke-width="1" stroke-linecap="round"/>
+  <line x1="40" y1="80" x2="48" y2="80" stroke="#654321" stroke-width="1" stroke-linecap="round"/>
+  <line x1="80" y1="77" x2="88" y2="75" stroke="#654321" stroke-width="1" stroke-linecap="round"/>
+  <line x1="80" y1="80" x2="88" y2="80" stroke="#654321" stroke-width="1" stroke-linecap="round"/>
+  
+  <!-- 关键字跳转符号 -->
+  <g transform="translate(64, 105)">
+    <rect x="-15" y="-8" width="30" height="16" rx="8" fill="#4CAF50" opacity="0.9"/>
+    <text x="0" y="2" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">GO</text>
+  </g>
+  
+  <!-- 装饰性箭头 -->
+  <path d="M 95 85 L 105 90 L 95 95 L 98 90 Z" fill="#FF6B6B" opacity="0.8"/>
+</svg>

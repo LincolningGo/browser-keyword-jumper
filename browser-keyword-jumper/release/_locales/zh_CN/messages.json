@@ -1,0 +1,303 @@
+{
+  "extensionName": {
+    "message": "浏览器关键字跳转",
+    "description": "扩展名称"
+  },
+  "extensionDescription": {
+    "message": "通过在地址栏输入自定义关键字快速跳转到常用网址",
+    "description": "扩展描述"
+  },
+  "extensionTitle": {
+    "message": "浏览器关键字跳转",
+    "description": "浏览器操作中显示的标题"
+  },
+  "popupTitle": {
+    "message": "关键字跳转",
+    "description": "弹出窗口主标题"
+  },
+  "importButton": {
+    "message": "导入",
+    "description": "导入按钮文本"
+  },
+  "exportButton": {
+    "message": "导出",
+    "description": "导出按钮文本"
+  },
+  "importTooltip": {
+    "message": "导入配置",
+    "description": "导入按钮提示"
+  },
+  "exportTooltip": {
+    "message": "导出配置",
+    "description": "导出按钮提示"
+  },
+  "keywordLabel": {
+    "message": "关键字",
+    "description": "关键字输入字段标签"
+  },
+  "urlLabel": {
+    "message": "网址",
+    "description": "网址输入字段标签"
+  },
+  "descriptionLabel": {
+    "message": "描述（可选）",
+    "description": "描述输入字段标签"
+  },
+  "keywordPlaceholder": {
+    "message": "例如：admin, test, dev",
+    "description": "关键字输入占位符文本"
+  },
+  "urlPlaceholder": {
+    "message": "https://example.com",
+    "description": "网址输入占位符文本"
+  },
+  "descriptionPlaceholder": {
+    "message": "简要描述这个快捷方式",
+    "description": "描述输入占位符文本"
+  },
+  "keywordPattern": {
+    "message": "只允许字母、数字、下划线和短横线",
+    "description": "关键字输入模式验证消息"
+  },
+  "addKeywordButton": {
+    "message": "添加关键字",
+    "description": "添加关键字按钮文本"
+  },
+  "updateKeywordButton": {
+    "message": "更新关键字",
+    "description": "更新关键字按钮文本"
+  },
+  "cancelButton": {
+    "message": "取消",
+    "description": "取消按钮文本"
+  },
+  "myKeywordsTitle": {
+    "message": "我的关键字",
+    "description": "关键字列表部分标题"
+  },
+  "emptyStateTitle": {
+    "message": "暂无关键字",
+    "description": "无关键字时显示的标题"
+  },
+  "emptyStateMessage": {
+    "message": "在上方添加您的第一个关键字开始使用！",
+    "description": "无关键字时显示的消息"
+  },
+  "editTooltip": {
+    "message": "编辑",
+    "description": "编辑按钮提示"
+  },
+  "deleteTooltip": {
+    "message": "删除",
+    "description": "删除按钮提示"
+  },
+  "confirmTitle": {
+    "message": "确认操作",
+    "description": "确认模态框标题"
+  },
+  "confirmButton": {
+    "message": "确认",
+    "description": "确认按钮文本"
+  },
+  "deleteConfirmTitle": {
+    "message": "确认删除",
+    "description": "删除确认标题"
+  },
+  "deleteConfirmMessage": {
+    "message": "确定要删除关键字\"$KEYWORD$\"吗？此操作无法撤销。",
+    "description": "删除确认消息",
+    "placeholders": {
+      "keyword": {
+        "content": "$1",
+        "example": "admin"
+      }
+    }
+  },
+  "importConfirmTitle": {
+    "message": "确认导入",
+    "description": "导入确认标题"
+  },
+  "importConfirmMessage": {
+    "message": "即将导入 $COUNT$ 个关键字配置，这将覆盖当前所有配置。确定要继续吗？",
+    "description": "导入确认消息",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "keywordAddedSuccess": {
+    "message": "关键字添加成功",
+    "description": "添加关键字成功消息"
+  },
+  "keywordUpdatedSuccess": {
+    "message": "关键字更新成功",
+    "description": "更新关键字成功消息"
+  },
+  "keywordDeletedSuccess": {
+    "message": "关键字删除成功",
+    "description": "删除关键字成功消息"
+  },
+  "configExportedSuccess": {
+    "message": "配置导出成功",
+    "description": "导出配置成功消息"
+  },
+  "configImportedSuccess": {
+    "message": "配置导入成功",
+    "description": "导入配置成功消息"
+  },
+  "errorKeywordEmpty": {
+    "message": "关键字不能为空",
+    "description": "关键字为空错误消息"
+  },
+  "errorKeywordTooLong": {
+    "message": "关键字长度不能超过50个字符",
+    "description": "关键字过长错误消息"
+  },
+  "errorKeywordInvalidChars": {
+    "message": "关键字只能包含字母、数字、下划线和连字符",
+    "description": "关键字字符无效错误消息"
+  },
+  "errorKeywordExists": {
+    "message": "该关键字已存在",
+    "description": "关键字重复错误消息"
+  },
+  "errorUrlEmpty": {
+    "message": "URL不能为空",
+    "description": "URL为空错误消息"
+  },
+  "errorUrlInvalid": {
+    "message": "URL格式无效",
+    "description": "URL格式无效错误消息"
+  },
+  "errorInitializationFailed": {
+    "message": "初始化失败，请刷新页面重试",
+    "description": "初始化失败错误消息"
+  },
+  "errorLoadKeywordsFailed": {
+    "message": "加载关键字列表失败",
+    "description": "加载关键字失败错误消息"
+  },
+  "errorSaveFailed": {
+    "message": "保存失败，请重试",
+    "description": "保存失败错误消息"
+  },
+  "errorDeleteFailed": {
+    "message": "删除失败，请重试",
+    "description": "删除失败错误消息"
+  },
+  "errorExportFailed": {
+    "message": "导出失败，请重试",
+    "description": "导出失败错误消息"
+  },
+  "errorImportFailed": {
+    "message": "导入失败，请重试",
+    "description": "导入失败错误消息"
+  },
+  "errorFileFormatInvalid": {
+    "message": "文件格式错误或文件损坏",
+    "description": "文件格式无效错误消息"
+  },
+  "errorSelectJsonFile": {
+    "message": "请选择JSON格式的配置文件",
+    "description": "选择非JSON文件错误消息"
+  },
+  "errorNoExportData": {
+    "message": "导出失败，没有可导出的配置",
+    "description": "无导出数据错误消息"
+  },
+  "errorKeywordNotFound": {
+    "message": "未找到要编辑的关键字",
+    "description": "未找到要编辑的关键字错误消息"
+  },
+  "errorKeywordToDeleteNotFound": {
+    "message": "未找到要删除的关键字",
+    "description": "未找到要删除的关键字错误消息"
+  },
+  "errorOperationFailed": {
+    "message": "操作失败，请检查输入并重试",
+    "description": "操作失败通用错误消息"
+  },
+  "errorStateTitle": {
+    "message": "初始化失败",
+    "description": "错误状态标题"
+  },
+  "errorStateMessage": {
+    "message": "插件初始化时发生错误，请刷新页面重试。",
+    "description": "错误状态消息"
+  },
+  "refreshPageButton": {
+    "message": "刷新页面",
+    "description": "刷新页面按钮文本"
+  },
+  
+  "importOptionsTitle": {
+    "message": "导入选项",
+    "description": "导入选项模态框标题"
+  },
+  "importFileInfo": {
+    "message": "导入文件信息",
+    "description": "导入文件信息部分标签"
+  },
+  "importKeywordCount": {
+    "message": "待导入关键字",
+    "description": "导入关键字数量标签"
+  },
+  "currentKeywordCount": {
+    "message": "当前关键字",
+    "description": "当前关键字数量标签"
+  },
+  "importModeTitle": {
+    "message": "导入模式",
+    "description": "导入模式选择标题"
+  },
+  "replaceMode": {
+    "message": "替换模式",
+    "description": "替换模式选项"
+  },
+  "replaceModeDesc": {
+    "message": "用导入的关键字替换所有当前关键字",
+    "description": "替换模式描述"
+  },
+  "mergeMode": {
+    "message": "合并模式",
+    "description": "合并模式选项"
+  },
+  "mergeModeDesc": {
+    "message": "将导入的关键字添加到现有关键字中",
+    "description": "合并模式描述"
+  },
+  "skipDuplicates": {
+    "message": "跳过重复的关键字",
+    "description": "跳过重复关键字选项"
+  },
+  "startImport": {
+    "message": "开始导入",
+    "description": "开始导入按钮文本"
+  },
+  "keywordsCount": {
+    "message": "个关键字",
+    "description": "关键字数量文本"
+  },
+  "addedCount": {
+    "message": "新增",
+    "description": "新增关键字数量"
+  },
+  "updatedCount": {
+    "message": "更新",
+    "description": "更新关键字数量"
+  },
+  "skippedCount": {
+    "message": "跳过",
+    "description": "跳过关键字数量"
+  },
+  "importWarning": {
+    "message": "导入完成但有警告",
+    "description": "导入有错误时的警告消息"
+  },
+  "errorsFound": {
+    "message": "个错误",
+    "description": "发现错误数量文本"
+  }
+}

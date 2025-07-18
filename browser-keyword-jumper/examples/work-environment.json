@@ -1,0 +1,49 @@
+{
+  "keywords": [
+    {
+      "keyword": "admin",
+      "url": "https://admin.company.com",
+      "description": "公司管理后台"
+    },
+    {
+      "keyword": "test",
+      "url": "https://test.company.com",
+      "description": "测试环境"
+    },
+    {
+      "keyword": "dev",
+      "url": "https://dev.company.com",
+      "description": "开发环境"
+    },
+    {
+      "keyword": "staging",
+      "url": "https://staging.company.com",
+      "description": "预发布环境"
+    },
+    {
+      "keyword": "prod",
+      "url": "https://www.company.com",
+      "description": "生产环境"
+    },
+    {
+      "keyword": "jenkins",
+      "url": "https://jenkins.company.com",
+      "description": "CI/CD构建平台"
+    },
+    {
+      "keyword": "jira",
+      "url": "https://company.atlassian.net",
+      "description": "项目管理工具"
+    },
+    {
+      "keyword": "confluence",
+      "url": "https://company.atlassian.net/wiki",
+      "description": "团队文档协作"
+    }
+  ],
+  "settings": {
+    "enableSuggestions": true,
+    "showPreview": true,
+    "version": "1.0.0"
+  }
+}
